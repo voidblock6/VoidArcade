@@ -8,26 +8,28 @@ import com.badlogic.gdx.utils.viewport.FitViewport;
 
 public class Main extends ApplicationAdapter {
     private SpriteBatch batch;
-    private Texture image;
     private FitViewport viewport;
+
+
+    private Texture titlescreen;
+    private Texture holbutton;
 
     @Override
     public void create() {
         batch = new SpriteBatch();
-        image = new Texture("voidarcade_titlescreen.png");
-
-
-        image.setFilter(Texture.TextureFilter.Nearest, Texture.TextureFilter.Nearest);
-
-
         viewport = new FitViewport(480, 270);
+
+
+        titlescreen = new Texture("voidarcade_titlescreen.png");
+        holbutton = new Texture("higher_or_lower_button.png");
+
+        titlescreen.setFilter(Texture.TextureFilter.Nearest, Texture.TextureFilter.Nearest);
+        holbutton.setFilter(Texture.TextureFilter.Nearest, Texture.TextureFilter.Nearest);
     }
 
     @Override
     public void render() {
-
         ScreenUtils.clear(0, 0, 0, 1f);
-
 
         viewport.apply();
         batch.setProjectionMatrix(viewport.getCamera().combined);
@@ -35,14 +37,16 @@ public class Main extends ApplicationAdapter {
         batch.begin();
 
 
-        float x = (viewport.getWorldWidth() - image.getWidth()) / 2f;
-        float y = (viewport.getWorldHeight() - image.getHeight()) / 2f;
 
-        batch.draw(image, x, y);
+        batch.draw(titlescreen, 0, 0, viewport.getWorldWidth(), viewport.getWorldHeight());
+
+
+        float buttonX = (viewport.getWorldWidth() - holbutton.getWidth()) / 2f;
+        float buttonY = 28;
+        batch.draw(holbutton, buttonX, buttonY);
 
         batch.end();
     }
-
 
     @Override
     public void resize(int width, int height) {
@@ -52,6 +56,8 @@ public class Main extends ApplicationAdapter {
     @Override
     public void dispose() {
         batch.dispose();
-        image.dispose();
+
+        titlescreen.dispose();
+        holbutton.dispose();
     }
 }
