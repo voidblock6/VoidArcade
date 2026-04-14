@@ -19,7 +19,7 @@ public class MainMenuScreen implements Screen {
         this.viewport = new FitViewport(480, 270);
 
         titlescreen = new Texture("voidarcade_titlescreen.png");
-        holbutton = new Texture("higher_or_lower_button.png");
+        holbutton = new Texture("higher_lower_button.png");
 
         titlescreen.setFilter(Texture.TextureFilter.Nearest, Texture.TextureFilter.Nearest);
         holbutton.setFilter(Texture.TextureFilter.Nearest, Texture.TextureFilter.Nearest);
