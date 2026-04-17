@@ -3,7 +3,7 @@ package net.voidblock.voidarcade;
 import com.badlogic.gdx.Game;
 import com.badlogic.gdx.graphics.g2d.SpriteBatch;
 
-public class VoidArcade extends Game {
+public class NumericalHigh extends Game {
     public SpriteBatch batch; // Shared batch between al screens
 
     @Override

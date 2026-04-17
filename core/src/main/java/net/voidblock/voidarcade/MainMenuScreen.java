@@ -9,7 +9,7 @@ import com.badlogic.gdx.utils.ScreenUtils;
 import com.badlogic.gdx.utils.viewport.FitViewport;
 
 public class MainMenuScreen implements Screen {
-    private final VoidArcade game;
+    private final NumericalHigh game;
     private FitViewport viewport;
     private float buttonX, buttonY;
     private float inventoryX, inventoryY;
@@ -18,7 +18,7 @@ public class MainMenuScreen implements Screen {
     private Texture titlescreen, playbutton, inventorybutton, quitbutton, optionsbutton;
 
 
-    public MainMenuScreen(final VoidArcade game) {
+    public MainMenuScreen(final NumericalHigh game) {
         this.game = game;
         this.viewport = new FitViewport(480, 270);
 

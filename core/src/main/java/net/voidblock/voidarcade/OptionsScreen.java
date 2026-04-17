@@ -8,10 +8,10 @@ import com.badlogic.gdx.utils.ScreenUtils;
 
 
 public class OptionsScreen implements Screen {
-    private final VoidArcade game;
+    private final NumericalHigh game;
 
 
-    public OptionsScreen(final VoidArcade game) {
+    public OptionsScreen(final NumericalHigh game) {
         this.game = game;
 
     }

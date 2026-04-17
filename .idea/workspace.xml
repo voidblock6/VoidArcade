@@ -4,20 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de55d79f-8ac0-4aa7-bb59-66131e900489" name="Changes" comment="added uiViewport to higher or lower and made the exit button be in the corner perfectly plus added the base for a score counter">
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/net/voidblock/voidarcade/InventoryScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/core/src/main/java/net/voidblock/voidarcade/OptionsScreen.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lwjgl3/src/main/resources/inventory_button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lwjgl3/src/main/resources/options_button.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lwjgl3/src/main/resources/quit_button.png" afterDir="false" />
+    <list default="true" id="de55d79f-8ac0-4aa7-bb59-66131e900489" name="Changes" comment="finished main menu buttons, added optionsscreen and renamed some stuff">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/libgdx.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/net/voidblock/voidarcade/HigherLowerScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/net/voidblock/voidarcade/PlayScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/net/voidblock/voidarcade/InventoryScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/net/voidblock/voidarcade/InventoryScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/net/voidblock/voidarcade/MainMenuScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/net/voidblock/voidarcade/MainMenuScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/net/voidblock/voidarcade/OptionsScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/net/voidblock/voidarcade/OptionsScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/net/voidblock/voidarcade/PlayScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/net/voidblock/voidarcade/PlayScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/core/src/main/java/net/voidblock/voidarcade/VoidArcade.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/net/voidblock/voidarcade/NumericalHigh.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lwjgl3/src/main/java/net/voidblock/voidarcade/lwjgl3/Lwjgl3Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/lwjgl3/src/main/java/net/voidblock/voidarcade/lwjgl3/Lwjgl3Launcher.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lwjgl3/src/main/resources/higher_lower_button.png" beforeDir="false" afterPath="$PROJECT_DIR$/lwjgl3/src/main/resources/play_button.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lwjgl3/src/main/resources/higher_lower_skeleton.png" beforeDir="false" afterPath="$PROJECT_DIR$/lwjgl3/src/main/resources/game_bg.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lwjgl3/src/main/resources/voidarcade_titlescreen.png" beforeDir="false" afterPath="$PROJECT_DIR$/lwjgl3/src/main/resources/titlescreen.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -226,7 +220,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776175306505</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="finished main menu buttons, added optionsscreen and renamed some stuff">
+      <option name="closed" value="true" />
+      <created>1776412470143</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1776412470143</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -245,6 +247,7 @@
     <MESSAGE value="added a app icon, made the button for higher or lower functional" />
     <MESSAGE value="worked on higher or lower screen, it has a exit button now, working on putting it in the corner perfectly" />
     <MESSAGE value="added uiViewport to higher or lower and made the exit button be in the corner perfectly plus added the base for a score counter" />
-    <option name="LAST_COMMIT_MESSAGE" value="added uiViewport to higher or lower and made the exit button be in the corner perfectly plus added the base for a score counter" />
+    <MESSAGE value="finished main menu buttons, added optionsscreen and renamed some stuff" />
+    <option name="LAST_COMMIT_MESSAGE" value="finished main menu buttons, added optionsscreen and renamed some stuff" />
   </component>
 </project>

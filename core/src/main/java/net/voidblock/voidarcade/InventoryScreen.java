@@ -8,10 +8,10 @@ import com.badlogic.gdx.utils.ScreenUtils;
 
 
 public class InventoryScreen implements Screen {
-    private final VoidArcade game;
+    private final NumericalHigh game;
 
 
-    public InventoryScreen(final VoidArcade game) {
+    public InventoryScreen(final NumericalHigh game) {
         this.game = game;
 
     }
