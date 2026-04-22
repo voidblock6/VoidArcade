@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de55d79f-8ac0-4aa7-bb59-66131e900489" name="Changes" comment="finished main menu buttons, added optionsscreen and renamed some stuff">
+    <list default="true" id="de55d79f-8ac0-4aa7-bb59-66131e900489" name="Changes" comment="game is now playable in a basic state">
+      <change afterPath="$PROJECT_DIR$/lwjgl3/src/main/resources/shield_upgrade_card.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/net/voidblock/voidarcade/InventoryScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/net/voidblock/voidarcade/InventoryScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/net/voidblock/voidarcade/MainMenuScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/net/voidblock/voidarcade/MainMenuScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/net/voidblock/voidarcade/OptionsScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/net/voidblock/voidarcade/OptionsScreen.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/net/voidblock/voidarcade/PlayScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/net/voidblock/voidarcade/PlayScreen.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/core/src/main/java/net/voidblock/voidarcade/VoidArcade.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/net/voidblock/voidarcade/NumericalHigh.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lwjgl3/src/main/java/net/voidblock/voidarcade/lwjgl3/Lwjgl3Launcher.java" beforeDir="false" afterPath="$PROJECT_DIR$/lwjgl3/src/main/java/net/voidblock/voidarcade/lwjgl3/Lwjgl3Launcher.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -79,6 +75,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -228,7 +225,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776412470143</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="game is now playable in a basic state">
+      <option name="closed" value="true" />
+      <created>1776423437811</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1776423437811</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -248,6 +253,7 @@
     <MESSAGE value="worked on higher or lower screen, it has a exit button now, working on putting it in the corner perfectly" />
     <MESSAGE value="added uiViewport to higher or lower and made the exit button be in the corner perfectly plus added the base for a score counter" />
     <MESSAGE value="finished main menu buttons, added optionsscreen and renamed some stuff" />
-    <option name="LAST_COMMIT_MESSAGE" value="finished main menu buttons, added optionsscreen and renamed some stuff" />
+    <MESSAGE value="game is now playable in a basic state" />
+    <option name="LAST_COMMIT_MESSAGE" value="game is now playable in a basic state" />
   </component>
 </project>
