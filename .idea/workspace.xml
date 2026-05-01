@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="de55d79f-8ac0-4aa7-bb59-66131e900489" name="Changes" comment="game is now playable in a basic state">
-      <change afterPath="$PROJECT_DIR$/lwjgl3/src/main/resources/shield_upgrade_card.png" afterDir="false" />
+    <list default="true" id="de55d79f-8ac0-4aa7-bb59-66131e900489" name="Changes" comment="prototyped a shield upgrade. better card system on the agenda">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src/main/java/net/voidblock/voidarcade/PlayScreen.java" beforeDir="false" afterPath="$PROJECT_DIR$/core/src/main/java/net/voidblock/voidarcade/PlayScreen.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl3/src/main/resources/game_bg.png" beforeDir="false" afterPath="$PROJECT_DIR$/lwjgl3/src/main/resources/game_bg.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lwjgl3/src/main/resources/shield_upgrade_card.png" beforeDir="false" afterPath="$PROJECT_DIR$/lwjgl3/src/main/resources/shield_upgrade_card.png" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +234,15 @@
       <option name="project" value="LOCAL" />
       <updated>1776423437811</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="prototyped a shield upgrade. better card system on the agenda">
+      <option name="closed" value="true" />
+      <created>1776862667643</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1776862667644</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -254,6 +263,7 @@
     <MESSAGE value="added uiViewport to higher or lower and made the exit button be in the corner perfectly plus added the base for a score counter" />
     <MESSAGE value="finished main menu buttons, added optionsscreen and renamed some stuff" />
     <MESSAGE value="game is now playable in a basic state" />
-    <option name="LAST_COMMIT_MESSAGE" value="game is now playable in a basic state" />
+    <MESSAGE value="prototyped a shield upgrade. better card system on the agenda" />
+    <option name="LAST_COMMIT_MESSAGE" value="prototyped a shield upgrade. better card system on the agenda" />
   </component>
 </project>
